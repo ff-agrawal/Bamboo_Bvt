@@ -1,0 +1,11 @@
+<!--DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"-->
+<suite name="DomainSuite" verbose="5" parallel="false" thread-count="1">
+
+  
+	<test name="PeopleHomePageBrokenImages" preserve-order="true">
+	   <classes>
+		<class name="com.timeinc.CheckBrokenImages"/>
+	   </classes>
+	</test>
+
+</suite>

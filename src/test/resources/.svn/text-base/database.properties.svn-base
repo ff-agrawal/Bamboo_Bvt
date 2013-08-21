@@ -1,0 +1,6 @@
+#This file contains database properties
+
+dbIP=10.99.192.69
+dbName=PAYPAL_QADB
+dbUsername=profiler
+dbPassword=db02prof

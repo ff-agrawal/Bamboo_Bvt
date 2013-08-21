@@ -1,0 +1,111 @@
+<!--DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"-->
+<suite name="DomainSuite" verbose="5" parallel="false" thread-count="1">
+
+
+<!--  Fee Discounts - Sprint 2 -->
+    <test name="ApplyDiscountThroughCandidateSearchResult" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.ApplyDiscountThroughCandidateSearchResult"/>
+	   </classes>
+	</test>
+	
+	<test name="ApplyDiscountThroughViewEditApproveRegistration" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.ApplyDiscountThroughViewEditApproveRegistration"/>
+	   </classes>
+	</test>
+	
+	<test name="CancelRegistrationAndReRegister" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.CancelRegistrationAndReRegister"/>
+	   </classes>
+	</test>
+	
+	<test name="CancelRegistrationAndReRegisterThroughSpecifyPaymentLater" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.CancelRegistrationAndReRegisterThroughSpecifyPaymentLater"/>
+	   </classes>
+	</test>
+	
+	<test name="ChargeFee" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.ChargeFee"/>
+	   </classes>
+	</test>
+	
+	<test name="RefundActualFeeThroughSpecifyPaymentLater" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.RefundActualFeeThroughSpecifyPaymentLater"/>
+	   </classes>
+	</test>
+	
+	<test name="RefundDiscountedFeeThroughSpecifyPaymentLater" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.RefundDiscountedFeeThroughSpecifyPaymentLater"/>
+	   </classes>
+	</test>
+	
+	<test name="RefundFeeApplyingDiscount" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.RefundFeeApplyingDiscount"/>
+	   </classes>
+	</test>
+	
+	<test name="RefundFeeWithoutApplyingDiscount" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.RefundFeeWithoutApplyingDiscount"/>
+	   </classes>
+	</test>
+	
+	<test name="RegistrationWithFeeDiscount" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.RegistrationWithFeeDiscount"/>
+	   </classes>
+	</test>
+	
+	<test name="RegistrationWithOtherPaymentModes" preserve-order="true">
+	   <classes>	
+		<class name="com.psi.lc.RegistrationWithOtherPaymentModes"/>
+	   </classes>
+	</test>
+	
+	<test name="RegisterByApplyingDiscountsInCandidateSite" preserve-order="true">
+	   <classes>
+		<class name="com.psi.lc.RegisterByApplyingDiscountsInCandidateSite"/>
+	   </classes>
+	</test>
+
+  <!-- Session Cloning SP-1 (SC-3, SC-4, SC-5) -->
+	<test name="CopyTestSessions" preserve-order="true">
+	   <classes>
+		<class name="com.psi.lc.CopyTestSessions"/>
+	   </classes>
+	</test>
+
+	<test name="CopySessionsWithCsrAndProctorAccounts" preserve-order="true">
+	   <classes>
+		<class name="com.psi.lc.CopySessionsWithCsrAndProctorAccounts"/>
+	   </classes>
+	</test>
+
+	<test name="ValidationOnCopySessionPage" preserve-order="true">
+	   <classes>
+		<class name="com.psi.lc.ValidationOnCopySessionPage"/>
+	   </classes>
+	</test>
+
+  <!-- Session Cloning SP-2 (SC-30, SC-6) -->
+	<test name="ValidationOnSessionCreationThroughCloning" preserve-order="true">
+	   <classes>
+		<class name="com.psi.lc.ValidationOnSessionCreationThroughCloning"/>
+	   </classes>
+	</test>
+
+  <!-- Session Cloning SP-3 (SC-33, SC-34) -->
+	<test name="ExtendedSessionCloning" preserve-order="true">
+	   <classes>
+		<class name="com.psi.lc.ExtendedSessionCloning"/>
+	   </classes>
+	</test>
+	
+</suite>

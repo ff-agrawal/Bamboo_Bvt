@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Admin"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="55.838">
+  <properties />
+            <testcase name="testBuildingCreation" time="55.838" classname="com.framework.utests.BuildingCreation">
+                <failure type="java.lang.AssertionError"
+                  message="Building Creation Failed
+null"
+              >
+<![CDATA[java.lang.AssertionError: Building Creation Failed
+null
+  org.testng.Assert.fail(Assert.java:89)
+  com.framework.utests.BuildingCreation.testBuildingCreation(BuildingCreation.java:192)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+  org.testng.TestRunner.privateRun(TestRunner.java:757)
+  org.testng.TestRunner.run(TestRunner.java:608)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+  org.testng.TestNG.run(TestNG.java:999)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+  java.lang.reflect.Method.invoke(Method.java:597)
+  org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+  org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+  org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

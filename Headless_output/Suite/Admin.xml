@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="XIPLR0041" name="com.framework.utests.BuildingCreation" tests="3" failures="3" timestamp="21 Aug 2013 18:22:26 GMT" time="0.066" errors="0">
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.framework.utests.BuildingCreation">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.framework.utests.BuildingCreation.tearDown(BuildingCreation.java:164)
+	at com.framework.main.StartBVT.main(StartBVT.java:52)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.framework.utests.LoginPass">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.framework.utests.LoginPass.tearDown(LoginPass.java:92)
+	at com.framework.main.StartBVT.main(StartBVT.java:52)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.framework.utests.LoginFail">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.framework.utests.LoginFail.tearDown(LoginFail.java:89)
+	at com.framework.main.StartBVT.main(StartBVT.java:52)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testBuildingCreation" time="0.0040" classname="com.framework.utests.BuildingCreation">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.framework.library.LibraryClass.captureScreenShot(LibraryClass.java:314)
+	at com.framework.utests.BuildingCreation.testBuildingCreation(BuildingCreation.java:143)
+	at com.framework.main.StartBVT.main(StartBVT.java:52)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testLogin" time="0.0020" classname="com.framework.utests.LoginPass">
+    <failure type="java.lang.AssertionError" message="Application Login failed
+null">
+      <![CDATA[java.lang.AssertionError: Application Login failed
+null
+	at com.framework.utests.LoginPass.testLogin(LoginPass.java:73)
+	at com.framework.main.StartBVT.main(StartBVT.java:52)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testLogin" time="0.0010" classname="com.framework.utests.LoginFail">
+    <failure type="java.lang.AssertionError" message="Application Login failed
+null">
+      <![CDATA[java.lang.AssertionError: Application Login failed
+null
+	at com.framework.utests.LoginFail.testLogin(LoginFail.java:70)
+	at com.framework.main.StartBVT.main(StartBVT.java:52)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

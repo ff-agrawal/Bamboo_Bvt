@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Admin(failed)" preserve-order="false">
+    <classes>
+      <class name="com.framework.utests.LoginFail">
+        <methods>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="com.framework.utests.LoginPass">
+        <methods>
+          <include name="testLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+      <class name="com.framework.utests.BuildingCreation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testBuildingCreation"/>
+          <include name="setUp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

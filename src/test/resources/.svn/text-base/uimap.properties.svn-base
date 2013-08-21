@@ -1,0 +1,16 @@
+#This file contains following details:
+#
+#	1. URL of the application
+#	2. Account ID
+#	3. User Name
+#	4. Password
+#
+#############################################
+#    Admin Login page details
+#
+Login=loginname
+Password=password
+Submit=B1
+Clear=//input[@name='']
+
+

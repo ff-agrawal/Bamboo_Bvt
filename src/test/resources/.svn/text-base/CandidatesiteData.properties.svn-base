@@ -1,0 +1,47 @@
+##########################################################################
+###This file contains the prepared data for the zip code loopup
+###  Following data is to compare Country and Zipcode
+##########################################################################
+
+Expdis1=0.0 miles
+ExpCity1=Akron, Ohio, 44313
+#ExpAdd1=1660 Chicago Ave, Suite M-15, Riverside Technology Business Park 
+
+Expdis2=20.0 miles
+ExpCity2=Middleburg Heights, Ohio, 44130
+
+Expdis3=97.1 miles
+ExpCity3=Erie, Pennsylvania, 16506
+
+Expdis4=184.7 miles
+ExpCity4=HOLT, Michigan, 48842
+
+Expdis5=288.8 miles
+ExpCity5=BALTIMORE, Maryland, 21211
+
+#########################################################################
+
+
+
+#########################################################################
+###This file contains the prepared data for the zip code loopup
+###  Following data is to compare CITY and STATE
+#########################################################################
+
+Expdis6=7.1 miles
+ExpCity6=Akron, Ohio, 44313
+#ExpAdd1=1660 Chicago Ave, Suite M-15, Riverside Technology Business Park 
+
+Expdis7=26.9 miles
+ExpCity7=Middleburg Heights, Ohio, 44130
+
+Expdis8=100.1 miles
+ExpCity8=Erie, Pennsylvania, 16506
+
+Expdis9=190.4 miles
+ExpCity9=HOLT, Michigan, 48842
+
+Expdis10=284.1 miles
+ExpCity10=BALTIMORE, Maryland, 21211
+
+#########################################################################

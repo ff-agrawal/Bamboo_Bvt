@@ -1,0 +1,69 @@
+##########################################################################
+###This file contains the prepared data for the zip code look up for admin site
+###  Following data is to compare Country and Zipcode
+##########################################################################
+
+Expdis1=0.0 miles
+ExpTestCenter1=AKRON
+ExpCity1=Akron, Ohio, 44313
+ExpTestingMode1=Computer / Paper & Pencil
+#ExpAdd1=1660 Chicago Ave, Suite M-15, Riverside Technology Business Park 
+
+Expdis2=20.0 miles
+ExpTestCenter2=CLEVELAND
+ExpCity2=Middleburg Heights, Ohio, 44130
+ExpTestingMode2=Computer / Paper & Pencil
+
+
+
+Expdis3=97.1 miles
+ExpTestCenter3=ERIE
+ExpCity3=Erie, Pennsylvania, 16506
+ExpTestingMode3=Computer / Paper & Pencil
+
+Expdis4=184.7 miles
+ExpTestCenter4=HOLT (LANSING)
+ExpCity4=HOLT, Michigan, 48842
+ExpTestingMode4=Computer / Paper & Pencil
+
+Expdis5=288.8 miles
+ExpTestCenter5=BALTIMORE
+ExpCity5=BALTIMORE, Maryland, 21211
+ExpTestingMode5=Computer / Paper & Pencil
+
+#########################################################################
+
+
+
+#########################################################################
+###This file contains the prepared data for the zip code loopup
+###  Following data is to compare CITY and STATE
+#########################################################################
+
+Expdis6=7.1 miles
+ExpTestCenter6=AKRON
+ExpCity6=Akron, Ohio, 44313
+ExpTestingMode6=Computer / Paper & Pencil
+#ExpAdd1=1660 Chicago Ave, Suite M-15, Riverside Technology Business Park 
+
+Expdis7=26.9 miles
+ExpTestCenter7=CLEVELAND
+ExpCity7=Middleburg Heights, Ohio, 44130
+ExpTestingMode7=Computer / Paper & Pencil
+
+Expdis8=100.1 miles
+ExpTestCenter8=ERIE
+ExpCity8=Erie, Pennsylvania, 16506
+ExpTestingMode8=Computer / Paper & Pencil
+
+Expdis9=190.4 miles
+ExpTestCenter9=HOLT (LANSING)
+ExpCity9=HOLT, Michigan, 48842
+ExpTestingMode9=Computer / Paper & Pencil
+
+
+Expdis10=284.1 miles
+ExpTestCenter10=BALTIMORE
+ExpCity10=BALTIMORE, Maryland, 21211
+ExpTestingMode10=Computer / Paper & Pencil
+#########################################################################

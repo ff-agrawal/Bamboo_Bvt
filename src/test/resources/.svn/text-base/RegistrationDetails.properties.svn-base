@@ -1,0 +1,13 @@
+##########################################################################
+# This file contains the details of catalog, sub-catalogs, test name	 #
+#		and candidate id type											 #
+##########################################################################
+
+# Note: Specify test which has catalog, subcatalog1 and subcatalog2 levels 
+
+catalog=Government/State Licensing Agencies
+subcatalog1=Texas
+subcatalog2=TX Real Estate
+test_name=Texas Real Estate Broker
+cd_id_type=TX_ID_Number
+payment_mode=HS Payment

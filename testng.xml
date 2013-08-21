@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Admin" preserve-order="true">
+    <classes>
+      <class name="com.framework.utests.BuildingCreation"/>
+      <class name="com.framework.utests.LoginPass"/>
+      <class name="com.framework.utests.LoginFail"/>
+<!-- <class name="com.framework.utests.BuildingDataEntry"/>
+      <class name="com.framework.utests.QualifyBuilding"/>
+      <class name="com.framework.utests.DataQAChecks"/>
+      <class name="com.framework.utests.CommonRegression"/>
+      <class name="com.framework.utests.WeatherInline"/>
+      <class name="com.framework.utests.OverwritingQAChecks"/
+      class name="com.framework.utests.ProcessingDisaggregation"/
+      class name="com.framework.utests.PerformMandV"/
+      <class name="com.framework.utests.AddAnalysis"/>
+      <class name="com.framework.utests.AddAssumptions"/>
+      <class name="com.framework.utests.AddDocument"/>
+      <class name="com.framework.utests.AddObservations"/>
+      <class name="com.framework.utests.AddDocument"/>
+	  <class name="com.framework.utests.AddPortfolio"/>
+	  <class name="com.framework.utests.ArchiveBuilding"/> -->
+    </classes>
+  </test><!-- Test -->
+  <!--<test name="Consumer" preserve-order="true">
+  <classes>
+  	<class name="com.framework.ctests.NavigationScript"/>
+  	<class name="com.framework.ctests.ConsumerRecommendations"/>
+  	<class name="com.framework.ctests.Comments"/>
+  </classes>
+  </test>--><!-- Test -->
+ <!--  <listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter">
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter">
+		</listener>
+	</listener>
+  </listeners> -->
+</suite> <!-- Suite -->

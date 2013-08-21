@@ -1,0 +1,28 @@
+#This file contains following details:
+#
+#	1. URLs of OPS,Admin,Candidate application
+#	2. UserNames of OPS,Admin,Candidate application
+#	3. Passwords of OPS,Admin,Candidate application
+#
+#############################################
+#    OPS Login details
+browser=iehta
+opsURL=http://10.91.192.64/
+opsusername=admin
+opspassword=password
+#
+#############################################
+#    LC Admin Login details
+adminURL=http://10.91.192.71/
+adminusername=sanjay
+adminpassword=S@njay77p
+csrusername=MyCSR
+csrpassword=S@njay77p
+proctorusername=MyProctor
+proctorpassword=S@njay77p
+#
+#############################################
+#    LC Candidate Login details
+candidateURL=http://10.168.51.108/
+candidateusername=lmadmin
+candidatepassword=Password1
